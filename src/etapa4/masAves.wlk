@@ -2,7 +2,7 @@
 object pepon {
 	var energia = 0
 	method energia() { return energia }
-	method comer(cosa, cuanto) { energia += (cosa.energiaPorGramo() * cuanto) / 2 }
+	method comer(cosa, gramos) { energia += (cosa.energiaPorGramo() * gramos) / 2 }
 	method volar(kms) { energia -= kms*0.5 + 1 } 
 	method haceLoQueQuieras() { 
 		self.volar(1)
@@ -22,7 +22,7 @@ object pipa {
 	var kmsRecorridos 
 	var gramosIngeridos
 	method volar(kms) { kmsRecorridos += kms}
-	method comer(gramos) { gramosIngeridos += gramos }
+	method comer(cosa, gramos) { gramosIngeridos += gramos }
 	method kmsRecorridos() { return kmsRecorridos }
 	method gramosIngeridos() { return gramosIngeridos }
 	/*
