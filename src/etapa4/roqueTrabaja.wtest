@@ -3,6 +3,7 @@ import masAves.*
 import pepita.*
 import roque.*
 
+
 test "roque trabaja" {
     roque.tuPupiloEs(pepita)
     roque.entrenar()

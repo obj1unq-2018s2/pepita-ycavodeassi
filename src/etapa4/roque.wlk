@@ -2,6 +2,7 @@
 import pepita.*
 import comidas.*
 import masAves.*
+
 /*
  Para que Roque realice su entrenamiento, el mensaje es entrenar(), sin parámetros.
  Por lo tanto, Roque debe recordar a qué ave está entrenando. P.ej. 
@@ -10,7 +11,9 @@ import masAves.*
 
 object roque {
 	var pupilo
+	
 	method tuPupiloEs(ave) { pupilo = ave }
+	
 	method entrenar() {
 		pupilo.volar(10)
 		pupilo.comer(alpiste,300)

@@ -1,12 +1,15 @@
 import comidas.*
 
+
 object pepita {
 	var energia = 0
-	method energia() { return energia }
-	method comer(cosa, gramos) { energia += cosa.energiaPorGramo() * gramos }
-	method volar(kms) { energia -= kms + 10 }
 	
-	// metodos nuevos
+	method energia() { return energia }
+	
+	method comer(cosa, gramos) { energia += cosa.energiaPorGramo() * gramos }
+	
+	method volar(kms) { energia -= kms + 10 }
+
 	method estaDebil() { return energia < 50 } 
 	
 	method estaFeliz() { return energia.between(500, 1000) }
