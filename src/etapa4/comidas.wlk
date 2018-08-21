@@ -1,23 +1,23 @@
 // el alpiste da 4 joules por gramo
 object alpiste {
-	method energiaPorGramo() { return 4 }
+	method energiaPorGramo() = 4
 }
 // el mondongo da 100 joules por gramo
 object mondongo {
-	method energiaPorGramo() { return 100 }
+	method energiaPorGramo() = 100
 }
 // Fixed: energiaQueOtorga() -> energiaPorGramo().
 // el bigMac da 2 joules por gramo, (aparte tiene que tomarse una buscapina pepita). 
 object bigMac {
-	method energiaPorGramo() { return 2 }
+	method energiaPorGramo() = 2
 }
 // el alcaucil da 20 joules por gramo
 object alcaucil {
-	method energiaPorGramo() { return 20}
+	method energiaPorGramo() = 20
 }
 // el sorgo da 9 joules por gramo
 object sorgo {
-	method energiaPorGramo() { return 9 }	
+	method energiaPorGramo() = 9	
 }
 // mijo mojado da 15 joules por gramo
 //mijo secado da 20 joules por gramo
