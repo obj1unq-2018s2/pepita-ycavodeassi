@@ -1,8 +1,5 @@
 import comidas.*
 
-/*
- * p.ej. pepita.comer(alpiste, 300) o pepita.comer(alcaucil, 50) 
- */
 object pepita {
 	var energia = 0
 	method energia() { return energia }
@@ -11,6 +8,7 @@ object pepita {
 	
 	// metodos nuevos
 	method estaDebil() { return energia < 50 } 
+	
 	method estaFeliz() { return energia.between(500, 1000) }
 	
 	method cuantoQuiereVolar() { 
@@ -33,6 +31,6 @@ object pepita {
 		else if (self.estaFeliz()) {
 			self.volar(8)
 		}
-		// no hace falta incluir el else
+		// no hace falta incluir el else ya que no realizaria ningun metodo. 
 	}
 }
