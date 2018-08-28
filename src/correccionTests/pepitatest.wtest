@@ -1,0 +1,21 @@
+import pepita.*
+import comidas.*
+
+describe "pepita" {
+	
+	test "energia arranca en 0" {
+		assert.equals(0, pepita.energia())
+	}
+	
+	test "al comer sube su energia" {
+		pepita.comer(alpiste, 12)
+		assert.equals(48, pepita.energia())
+	}
+	
+	test "al volar baja su energia" {
+		pepita.volar(50)
+		assert.equals(-60, pepita.energia())
+	}
+	
+}
+
