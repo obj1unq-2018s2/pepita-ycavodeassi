@@ -10,3 +10,8 @@ object patagonia {
 object sierrasCordobesas {
 	method energiaRevitalizadora() = 70
 }
+
+object marDelPlata {
+	const mes = (new Date()).month()
+	method energiaRevitalizadora() {}
+}
