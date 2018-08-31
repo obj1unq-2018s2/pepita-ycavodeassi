@@ -4,14 +4,28 @@
 **/
 
 object patagonia {
-	method energiaRevitalizadora() = 30
+	method energiaRevitalizadora(unAve) = 30
 }
 
 object sierrasCordobesas {
-	method energiaRevitalizadora() = 70
+	method energiaRevitalizadora(unAve) = 70
 }
 
 object marDelPlata {
-	const mes = (new Date()).month()
-	method energiaRevitalizadora() {}
+	var temporadaAlta = true
+	method energiaRevitalizadora(unAve) {
+		if (temporadaAlta) {
+			return -20
+		}
+		else {
+			return 80
+		}
+	}
+	method esTemporadaAlta() { temporadaAlta = true } 
+	method esTemporadaBaja() { temporadaAlta = false }
 }
+
+object noroeste {
+	method energiaRevitalizadora(unAve) = unAve.energia() * 0.1
+	}
+	

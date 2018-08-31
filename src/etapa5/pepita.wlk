@@ -9,6 +9,6 @@ object pepita {
 	
 	method comer(cosa, gramos) { energia += cosa.energiaPorGramo() * gramos }
 	
-	method visitar(destino) { energia += destino.energiaRevitalizadora()  }
+	method visitar(destino) { energia += destino.energiaRevitalizadora(self)  }
 	
 }
