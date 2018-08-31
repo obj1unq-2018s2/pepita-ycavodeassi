@@ -1,6 +1,34 @@
+import pepita.*
+import destinos.*
+import comidas.*
 
-test "testX" {
-
-	assert.that(true)
-
+describe "Los viajes de Pepita" {
+	
+	test "Viaje a Patagonia" {
+		pepita.visitar(patagonia)
+		assert.equals(30, pepita.energia())
+	}
+	
+	test "Viaje a sierrasCordobesas" {
+		pepita.visitar(sierrasCordobesas)
+		assert.equals(70, pepita.energia())
+	}
+	
+	test "Viaje a marDelPlata en Temporada Alta" {
+		pepita.visitar(marDelPlata)
+		marDelPlata.esTemporadaAlta()
+		assert.equals(-20, pepita.energia())
+	}
+	
+	test "Viaje a marDelPlata en Temporada Baja" {
+		pepita.visitar(marDelPlata)
+		marDelPlata.esTemporadaBaja()
+		assert.equals(80, pepita.energia())
+	}
+	
+	test "Viaje a noroeste" {
+		pepita.energia(10)
+		pepita.visitar(noroeste)
+		assert.equals(1, pepita.energia())
+	}
 }
