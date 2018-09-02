@@ -14,7 +14,7 @@ Agregar en Roque y en Susana el mensaje `pupiloActual()`, que devuelva el ave qu
 
 ## Primer prueba con referencias
 Levantar un REPL nuevito y hacer lo siguiente
-1. darle 200 gramos de comer a Pepita y a Pepón.
+1. darle 200 gramos de alpiste(x4) comer a Pepita y a Pepón.
 1. decirle a Roque que su pupilo es Pepita, y a Susana que su pupilo es Pepón. 
 1. fijarse la energía de Pepita y de Pepón.
 1. dibujar el diagrama de objetos que se generó.
