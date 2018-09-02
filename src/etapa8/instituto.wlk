@@ -1,2 +1,4 @@
 
-object instituto {  }
+object instituto {
+	//Falta clase de colecciones para desarrollar.
+}
