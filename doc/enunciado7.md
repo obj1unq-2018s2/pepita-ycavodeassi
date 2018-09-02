@@ -6,11 +6,20 @@ Lo que se pide es responder dos preguntas.
 
 1. Si le indicamos a Roque que su pupilo es el helicóptero feo, ¿lo va a poder entrenar? 
    Si no puede, ¿por qué es?
+   
+   #Porque helicopterofeo no es polimorfico a los demas objetos. 
+   
    Más precisamente, ¿a qué objeto le falta algo, a `roque` o a `helicopteroFeo`? ¿qué es lo que falta?
+   
+   #Para utilizar la idea de polimorfismo hace falta que helicoptero feo entienda todos los mensajes que le envia roque tal como lo hacen las demas aves.
+   
 1. Lo mismo para Pepucha. 
    Agregar lo que falte para que sí se pueda asignar a Pepucha como pupila de Roque, y hacer que Roque la entrene.
 
 Relacionar estos dos puntos con la idea de _polimorfismo_. <br>
-Para que el helicóptero feo, o pepucha, puedan ser entrenados por Roque, ¿con quién/es tienen que ser polimórficos? 
+Para que el helicóptero feo, o pepucha, puedan ser entrenados por Roque, ¿con quién/es tienen que ser polimórficos?
+
+#con pepita, pepon, pipa.
+ 
 Considerar las aves definidas en puntos anteriores.
     
