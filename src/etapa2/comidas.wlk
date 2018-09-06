@@ -65,6 +65,7 @@ object canelones {
 	}
 	method energiaPorGramo() {
 		if(conSalsa && conQueso) {
+			// TODO Estás haciendo las cuentas vos, dejá que las haga la computadora que para eso está.
 			return 32 
 		}
 		else if (conSalsa && not conQueso) {
